@@ -15,7 +15,16 @@
         <a class="nav-link"  routerLink="posts" routerLinkActive="active">Posts</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled"  routerLink="contact" routerLinkActive="active">Contact</a>
+        <a class="nav-link "  routerLink="contact" routerLinkActive="active">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link"  routerLink="auth/signIn" routerLinkActive="active" *ngIf="!isAuth">Se connecter</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link"  routerLink="auth/signUp" routerLinkActive="active" *ngIf="!isAuth">Creer compte</a>
+      </li >
+      <li class="nav-item" routerLinkActive="active">
+        <a class="nav-link" (click)="OnSignOut()" *ngIf="isAuth" style="cursor:pointer">Deconnecter</a>
       </li>
     </ul>
   </div>

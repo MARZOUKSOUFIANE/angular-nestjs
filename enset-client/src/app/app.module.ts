@@ -3,17 +3,23 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import {UsersModule} from "./users/users.module";
+import {UsersModule} from './users/users.module';
 import { HomeComponent } from './home/home.component';
 import { UserDetailComponent } from './user-detail/user-detail.component';
 import { PostsComponent } from './posts/posts.component';
 import { PostDetailComponent } from './post-detail/post-detail.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
-import {UsersService} from "./users/users.service";
-import {HttpClientModule} from "@angular/common/http";
+import {UsersService} from './users/users.service';
+import {HttpClientModule} from '@angular/common/http';
 import { ContactComponent } from './contact/contact.component';
-import {ReactiveFormsModule} from "@angular/forms";
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import {AuthService} from './services/auth.service';
+import { SignupComponent } from './auth/signup/signup.component';
+import { SigninComponent } from './auth/signin/signin.component';
+import {RouterModule} from '@angular/router';
+import { HeaderComponent } from './header/header.component';
+import {AuthGuardService} from './services/auth-guard.service';
 
 @NgModule({
   declarations: [
@@ -24,16 +30,23 @@ import {ReactiveFormsModule} from "@angular/forms";
     PostDetailComponent,
     NotFoundComponent,
     NavBarComponent,
-    ContactComponent
+    ContactComponent,
+    SignupComponent,
+    SigninComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     UsersModule,
     HttpClientModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    RouterModule
   ],
-  providers: [],
+  providers: [
+    AuthService,
+    AuthGuardService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

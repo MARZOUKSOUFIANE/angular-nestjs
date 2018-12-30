@@ -4,13 +4,13 @@
 
 Application de gestion des posts des personnes fournis par 'facker' afin de pouvoir supprimer, rechercher , et afficher les details soit des personnes soit de leurs posts.
 les technologies utilisées dans la realisation de cette application sont :
-### *FrontEnd :
+### -FrontEnd :
 comme frontEnd l'application utilise angular (one page application)
 
-### *BackEnd :
+### -BackEnd :
 back end est assuré par le nouveau framework  node js 'nest js' 
 
-### *DataBase :
+### -DataBase :
 c'est la base de données facker , la base de donnees fireBase et plus précisément le service authentification pour garantir l'inscription des utilisateurs avant l'affichage du contenu grace a l'interface 'CanActivate'
 
 ## Demonstration(screenshots) :
@@ -55,5 +55,6 @@ c'est la base de données facker , la base de donnees fireBase et plus précisé
 
 
 
-### NB: ####le projet contient des commits qui font des traces sur les differentes etapes de la realisation
+### Remarque: 
+#### le projet contient des commits qui font des traces sur les differentes etapes de la realisation
 

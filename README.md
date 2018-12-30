@@ -41,9 +41,9 @@ c'est la base de données facker , la base de donnees fireBase et plus précisé
 
 ### details-user
 ![alt tag](https://user-images.githubusercontent.com/37849401/50549832-df55a500-0c5b-11e9-8d20-40def5bf2fe5.PNG)
+![alt tag](https://user-images.githubusercontent.com/37849401/50548432-30599f00-0c44-11e9-9345-6c53e35c4fd6.PNG)
 #### fonction addUser(NestJs)
 ![alt tag](https://user-images.githubusercontent.com/37849401/50549859-63a82800-0c5c-11e9-9af7-a66dde3d66e8.PNG)
-
 
 ### detail-post-of-User
 ![alt tag](https://user-images.githubusercontent.com/37849401/50549935-38bed380-0c5e-11e9-879a-2b938fce0804.PNG)

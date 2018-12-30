@@ -11,7 +11,7 @@ comme frontEnd l'application utilise angular (one page application)
 back end est assuré par le framework nest js
 
 ### DataBase :
-c'est la base de données fireBase et plus précisément le service authentification pour garantir l'inscription des utilisateurs avant l'affichage du contenu
+c'est la base de données fireBase et plus précisément le service authentification pour garantir l'inscription des utilisateurs avant l'affichage du contenu grace a l'interface 'CanActivate'
 
 ### images :
 ![alt tag](https://user-images.githubusercontent.com/37849401/50548419-07d1a500-0c44-11e9-8fc7-a2f54344f0d9.PNG)

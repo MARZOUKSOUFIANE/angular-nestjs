@@ -1,19 +1,19 @@
-# blog_application
+# blog_application/Angular-nestjs
 
 ## Informations
 
-application de gestion des posts des personnes fournis par 'facker' afin de pouvoir supprimer, rechercher , et afficher les details soit des personnes soit de leurs posts.
-
+Application de gestion des posts des personnes fournis par 'facker' afin de pouvoir supprimer, rechercher , et afficher les details soit des personnes soit de leurs posts.
+les technologies utilisées dans la realisation de cette application sont :
 ### FrontEnd :
 comme frontEnd l'application utilise angular (one page application)
 
 ### BackEnd :
-back end est assuré par le framework nest js
+back end est assuré par le nouveau framework  node js 'nest js' 
 
 ### DataBase :
-c'est la base de données fireBase et plus précisément le service authentification pour garantir l'inscription des utilisateurs avant l'affichage du contenu grace a l'interface 'CanActivate'
+c'est la base de données facker , la base de donnees fireBase et plus précisément le service authentification pour garantir l'inscription des utilisateurs avant l'affichage du contenu grace a l'interface 'CanActivate'
 
-## images :
+## Demonstration(screenshots) :
 
 ### routage
 ![alt tag](https://user-images.githubusercontent.com/37849401/50549364-8eda4980-0c53-11e9-9190-61cda636dddf.PNG)
@@ -34,18 +34,23 @@ c'est la base de données fireBase et plus précisément le service authentifica
 ### CanActivate(forcer la connexion)
 ![alt tag](https://user-images.githubusercontent.com/37849401/50549639-204bba80-0c58-11e9-8bf6-2833bee150d0.PNG)
 
-
-![alt tag]()
-![alt tag]()
-![alt tag]()
-![alt tag]()
-![alt tag]()
-
-
-![alt tag](https://user-images.githubusercontent.com/37849401/50548419-07d1a500-0c44-11e9-8fc7-a2f54344f0d9.PNG)
-![alt tag](https://user-images.githubusercontent.com/37849401/50548481-2be1b600-0c45-11e9-9100-bd1c278d3106.PNG)
-![alt tag](https://user-images.githubusercontent.com/37849401/50548420-0d2eef80-0c44-11e9-981f-7ecd54d81aa3.PNG)
-![alt tag](https://user-images.githubusercontent.com/37849401/50548423-1c15a200-0c44-11e9-855a-595fc3e8b448.PNG)
+### liste des users
+![alt tag](https://user-images.githubusercontent.com/37849401/50549744-9b15d500-0c5a-11e9-9541-39584984a645.PNG)
+![alt tag](https://user-images.githubusercontent.com/37849401/50549741-96512100-0c5a-11e9-93fe-efb6cb60dee2.PNG)
 ![alt tag](https://user-images.githubusercontent.com/37849401/50548428-26d03700-0c44-11e9-8183-4630b07815ae.PNG)
-![alt tag](https://user-images.githubusercontent.com/37849401/50548432-30599f00-0c44-11e9-9345-6c53e35c4fd6.PNG)
+
+### details-user
+![alt tag](https://user-images.githubusercontent.com/37849401/50549832-df55a500-0c5b-11e9-8d20-40def5bf2fe5.PNG)
+#### fonction addUser(NestJs)
+![alt tag](https://user-images.githubusercontent.com/37849401/50549859-63a82800-0c5c-11e9-9af7-a66dde3d66e8.PNG)
+
+
+### detail-post-of-User
+![alt tag](https://user-images.githubusercontent.com/37849401/50549935-38bed380-0c5e-11e9-879a-2b938fce0804.PNG)
 ![alt tag](https://user-images.githubusercontent.com/37849401/50548435-3a7b9d80-0c44-11e9-91b1-3ed596736417.PNG)
+
+### liste-posts
+![alt tag](https://user-images.githubusercontent.com/37849401/50549962-acf97700-0c5e-11e9-9cb9-dc2304995918.PNG)
+![alt tag](https://user-images.githubusercontent.com/37849401/50548423-1c15a200-0c44-11e9-855a-595fc3e8b448.PNG)
+
+

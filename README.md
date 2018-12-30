@@ -1,14 +1,14 @@
 # blog_application
 
-### informations
+## Informations
 
 application de gestion des posts des personnes fournis par 'facker' afin de pouvoir supprimer, rechercher , et afficher les details soit des personnes soit de leurs posts.
 
-**FrontEnd**
+### FrontEnd :
 comme frontEnd l'application utilise angular (one page application)
 
-**BackEnd**
+### BackEnd :
 back end est assuré par le framework nest js
 
-**DataBase**
+### DataBase :
 c'est la base de données fireBase et plus précisément le service authentification pour garantir l'inscription des utilisateurs avant l'affichage du contenu

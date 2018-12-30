@@ -9,22 +9,19 @@
         <a class="nav-link" routerLink="home" routerLinkActive="active">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
+        <a class="nav-link"  routerLink="auth/signIn" routerLinkActive="active" *ngIf="!isAuth">SignIn</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link"  routerLink="auth/signUp" routerLinkActive="active" *ngIf="!isAuth">SignUp</a>
+      </li >
+      <li class="nav-item">
         <a class="nav-link"  routerLink="users" routerLinkActive="active">Users</a>
       </li>
       <li class="nav-item">
         <a class="nav-link"  routerLink="posts" routerLinkActive="active">Posts</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link "  routerLink="contact" routerLinkActive="active">Contact</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link"  routerLink="auth/signIn" routerLinkActive="active" *ngIf="!isAuth">Se connecter</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link"  routerLink="auth/signUp" routerLinkActive="active" *ngIf="!isAuth">Creer compte</a>
-      </li >
       <li class="nav-item" routerLinkActive="active">
-        <a class="nav-link" (click)="OnSignOut()" *ngIf="isAuth" style="cursor:pointer">Deconnecter</a>
+        <a class="nav-link" (click)="OnSignOut()" *ngIf="isAuth" style="cursor:pointer">SignOut</a>
       </li>
     </ul>
   </div>

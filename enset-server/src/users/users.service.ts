@@ -13,6 +13,11 @@ export class UsersService {
           id: i + 1,
           name : faker.name.findName(),
           email : faker.internet.email(),
+          jobTitle: faker.name.jobTitle(),
+          jobType: faker.name.jobType(),
+          image: faker.image.avatar(),
+          paragraphs: faker.lorem.paragraphs(),
+          date: faker.date.past(10),
         };
       });
   }
@@ -32,6 +37,11 @@ export class UsersService {
       id: this.generateId(),
       name: createUserDto.name,
       email: createUserDto.email,
+      jobTitle: createUserDto.jobTile,
+      jobType: createUserDto.jobType,
+      image: createUserDto.image,
+      paragraphs: createUserDto.paragraphs,
+        date: createUserDto.date,
     };
     this.users.push(user);
     return user;

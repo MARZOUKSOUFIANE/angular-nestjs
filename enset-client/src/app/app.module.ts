@@ -18,7 +18,6 @@ import {AuthService} from './services/auth.service';
 import { SignupComponent } from './auth/signup/signup.component';
 import { SigninComponent } from './auth/signin/signin.component';
 import {RouterModule} from '@angular/router';
-import { HeaderComponent } from './header/header.component';
 import {AuthGuardService} from './services/auth-guard.service';
 
 @NgModule({
@@ -33,7 +32,6 @@ import {AuthGuardService} from './services/auth-guard.service';
     ContactComponent,
     SignupComponent,
     SigninComponent,
-    HeaderComponent
   ],
   imports: [
     BrowserModule,
@@ -45,7 +43,8 @@ import {AuthGuardService} from './services/auth-guard.service';
   ],
   providers: [
     AuthService,
-    AuthGuardService
+    AuthGuardService,
+    UsersService
   ],
   bootstrap: [AppComponent]
 })

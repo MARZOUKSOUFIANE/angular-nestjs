@@ -1,3 +1,10 @@
-<p>
-  posts works!
-</p>
+<div class="container">
+  <h3 style="color: blue">L'ensemble des articles</h3>
+  <div class="list-group-item" >
+    <div *ngFor="let user of users" class="list-group-item">
+      <h5 style="color: darkcyan">{{user.name}}</h5>
+      <p>{{user.paragraphs}}</p>
+      <span style="color: blue; left: -600px">{{user.date.split(':')[0]}}</span>
+    </div>
+  </div>
+</div>

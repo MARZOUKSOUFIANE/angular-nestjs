@@ -1,3 +1,14 @@
-<p>
-  post-detail works!
-</p>
+<div class="container">
+  <h3 style="color: blue">Articles de <span style="color:darkcyan">{{user.name}}</span></h3><br>
+  <div *ngIf="paragraphes.length != 0">
+  <div *ngFor="let para of paragraphes let i = index">
+    <div class="list-group-item" style="">
+      <p>{{para}}</p>
+      <span style="color: blue">{{user.date.split(':')[0]}}</span>
+      <button class="btn btn-default" style="margin-left: 300px; color: blue" (click)="removeArticle(i)">supprimer l'article</button>
+    </div>
+  </div>
+  </div>
+  <br><br>
+  <a routerLink="/users/:id" style="font-weight: bold; text-decoration: underline; color: blue">retour</a>
+</div>

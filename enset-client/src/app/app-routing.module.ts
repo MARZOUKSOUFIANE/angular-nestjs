@@ -13,15 +13,15 @@ import {AuthGuardService} from './services/auth-guard.service';
 
 
 const routes: Routes = [
-  {path: '', redirectTo: '**' , pathMatch: 'full' },
+  {path: '', redirectTo: 'home' , pathMatch: 'full' },
   {path: 'home', component: HomeComponent},
   {path: 'auth/signIn', component: SigninComponent},
   {path: 'auth/signUp', component: SignupComponent},
   {path: 'users', canActivate: [AuthGuardService], component: UsersComponent},
   {path: 'users/:Id', canActivate: [AuthGuardService],  component: UserDetailComponent},
   {path: 'posts', canActivate: [AuthGuardService],  component: PostsComponent},
+  {path: 'post-detail', canActivate: [AuthGuardService],  component: PostDetailComponent},
   {path: 'posts/:Id', canActivate: [AuthGuardService], component: PostDetailComponent},
-  {path: 'contact', canActivate: [AuthGuardService],  component: ContactComponent},
   {path: '**', component: NotFoundComponent},
 ];
 

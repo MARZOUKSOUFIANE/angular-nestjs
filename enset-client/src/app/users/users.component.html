@@ -5,13 +5,15 @@
       <th>ID</th>
       <th>NAME</th>
       <th>EMAIL</th>
-      <th>infos</th>
+      <th></th>
+      <th></th>
     </tr>
-    <tr *ngFor="let user of users">
+    <tr *ngFor="let user of users let i = index">
       <td>{{ user.id}}</td>
       <td>{{ user.name}}</td>
       <td>{{ user.email}}</td>
-      <td><a href="#">detail</a></td>
+      <td><button class="btn btn-primary" (click)="AfficherDetails(user.id)">detail</button></td>
+      <td><button class="btn btn-danger" (click)="DeleteUser(user.id)">delete</button></td>
 
     </tr>
   </table>

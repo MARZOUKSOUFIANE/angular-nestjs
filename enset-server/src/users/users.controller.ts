@@ -23,6 +23,6 @@ export class UsersController {
   }
   @Delete()
   removeUser(userId): any {
-    return 'User removed';
+      this.usersService.remove(userId);
   }
 }

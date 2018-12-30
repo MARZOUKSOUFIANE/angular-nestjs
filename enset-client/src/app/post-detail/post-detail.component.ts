@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {UsersService} from '../users/users.service';
 
 @Component({
   selector: 'app-post-detail',
@@ -7,9 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PostDetailComponent implements OnInit {
 
-  constructor() { }
+  user: any;
+  paragraphes: string[];
+  constructor(private userService: UsersService) {}
 
   ngOnInit() {
+    this.user = this.userService.userChoisi;
+     this.paragraphes = this.user.paragraphs.split('\n');
+  }
+  removeArticle(i) {
+    this.paragraphes.splice(i, 1);
   }
 
 }

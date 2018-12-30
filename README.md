@@ -15,15 +15,15 @@ c'est la base de données fireBase et plus précisément le service authentifica
 
 ## images :
 
-**routage**
+### routage
 ![alt tag](https://user-images.githubusercontent.com/37849401/50549364-8eda4980-0c53-11e9-9190-61cda636dddf.PNG)
 
-**inscription**
+### inscription
 ![alt tag](https://user-images.githubusercontent.com/37849401/50549368-97cb1b00-0c53-11e9-88fa-9339c4dd98e6.PNG)
 ![alt tag](https://user-images.githubusercontent.com/37849401/50549371-a31e4680-0c53-11e9-9e8d-a8a0de0af9f6.PNG)
 ![alt tag](https://user-images.githubusercontent.com/37849401/50548419-07d1a500-0c44-11e9-8fc7-a2f54344f0d9.PNG)
 
-**connexion**
+### connexion
 ![alt tag](https://user-images.githubusercontent.com/37849401/50549480-53407f00-0c55-11e9-998f-ea98a472f9b1.PNG)
 ![alt tag](https://user-images.githubusercontent.com/37849401/50548420-0d2eef80-0c44-11e9-981f-7ecd54d81aa3.PNG)
 

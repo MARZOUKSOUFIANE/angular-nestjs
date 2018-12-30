@@ -31,8 +31,10 @@ c'est la base de données fireBase et plus précisément le service authentifica
 ![alt tag](https://user-images.githubusercontent.com/37849401/50549539-b41c8700-0c56-11e9-8c68-7a241fb0d969.PNG)
 ![alt tag](https://user-images.githubusercontent.com/37849401/50549541-b7177780-0c56-11e9-8eff-b668f3a30952.PNG)
 
+### CanActivate(forcer la connexion)
+![alt tag](https://user-images.githubusercontent.com/37849401/50549639-204bba80-0c58-11e9-8bf6-2833bee150d0.PNG)
 
-![alt tag]()
+
 ![alt tag]()
 ![alt tag]()
 ![alt tag]()
